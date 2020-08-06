@@ -17,3 +17,11 @@
     flex: 0 0 120px;
 
 }
+
+i {
+	transition: transform .2s;
+}
+
+i:hover {
+	transform: scale(1.5);
+}
