@@ -19,9 +19,20 @@
 }
 
 i {
-	transition: transform .2s;
+    transition: transform .2s;
 }
 
 i:hover {
-	transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.tiny:before {
+    background-image: url(../images/tiny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*    filter: hue-rotate(45deg);*/
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
