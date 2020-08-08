@@ -1,0 +1,24 @@
+.box {
+    display: block;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #eb3980;
+    font-family: "Comic Sans MS", "Comic Sans";
+    border: 3px dashed pink;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.doge {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: url(http://mynameismatthieu.com/WOW/img/wow-8.gif) no-repeat;
+}
+
+body {
+    background: url(http://mynameismatthieu.com/WOW/img/wow-logo.jpg) #fff fixed no-repeat center center;
+}
