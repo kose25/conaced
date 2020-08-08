@@ -36,9 +36,26 @@ i:hover {
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
+
 .back-to-top {
     position: fixed;
     bottom: 25px;
     right: 25px;
     display: none;
+
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.shadowh1 {
+    text-shadow: 5px 5px 10px grey;
+    color: black
 }
