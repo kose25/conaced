@@ -59,3 +59,8 @@ i:hover {
     text-shadow: 5px 5px 10px grey;
     color: black
 }
+
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
